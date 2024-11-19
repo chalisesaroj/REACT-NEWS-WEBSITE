@@ -1315,6 +1315,7 @@ const responsejson={
       
 return(
     <div className="news-container">
+        <h1>Collection of news from multiple sorce</h1>
     <div className="news-grid">
     {responsejson.articles.map((article,index)=>{
      return <div className="news-card">
