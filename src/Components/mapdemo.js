@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./News.css";
 function MapDemo(){
     const[title,setTitle]=useState("");
