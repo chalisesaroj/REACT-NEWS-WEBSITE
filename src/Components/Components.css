@@ -1,0 +1,10 @@
+.volumeClass{
+    width:100%;
+    background-color: aqua;
+    color:red;
+  }
+  .rsiClass{
+    background-color: green;
+    width:100%;
+    color:blue;
+  }

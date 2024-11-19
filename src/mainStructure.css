@@ -1,0 +1,7 @@
+#mainStructure{
+    display:flex;
+    background-color: navy;
+    color:red ;
+    gap: 80px;
+}
+
