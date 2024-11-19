@@ -21,7 +21,7 @@ function News() {
 
   useEffect(() => {
     fetchNews();
-    console.log("Error fetching api");
+
     
   }, []);
 

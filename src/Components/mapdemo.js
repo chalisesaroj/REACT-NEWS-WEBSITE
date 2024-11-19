@@ -1,6 +1,10 @@
 import React from "react";
 import "./News.css";
 function MapDemo(){
+    const[title,setTitle]=useState("");
+    useEffect(()=>{
+document.title="Saroj News";
+    },[])
 const responsejson={
     "status": "ok",
     "totalResults": 5824,
