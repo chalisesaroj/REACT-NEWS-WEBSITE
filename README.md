@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that fetches and displays news articles in a dynamic, news-card format.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This project uses React to render news headlines and articles. Due to the API key limitations of [NewsAPI](https://newsapi.org/), the application directly uses a local JSON file containing sample news data. This ensures consistent behavior during development and demonstration.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Notes:
+- Replace the JSON file with live API integration if you have a valid NewsAPI key.
+- Ensure the JSON structure matches the expected format for seamless data rendering.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+```bash
+# Clone the repository
+git clone https://github.com/chalisesaroj/REACT-NEWS-WEBSITE.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Navigate to the project directory
+cd project-name
 
-### `npm run build`
+# Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project uses the following dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **@popperjs/core:** ^2.11.8 - Tooltip and popover positioning engine.
+- **@testing-library/jest-dom:** ^5.17.0 - Custom Jest matchers for DOM testing.
+- **@testing-library/react:** ^13.4.0 - Utilities for testing React components.
+- **@testing-library/user-event:** ^13.5.0 - Simulates user interactions in tests.
+- **bootstrap:** ^5.3.3 - Front-end framework for responsive design.
+- **gh-pages:** ^6.2.0 - For deploying to GitHub Pages.
+- **react:** ^18.3.1 - JavaScript library for building user interfaces.
+- **react-dom:** ^18.3.1 - React package for working with the DOM.
+- **react-router-dom:** ^6.28.0 - Routing library for React.
+- **react-scripts:** 5.0.1 - Scripts for running and building React apps.
+- **web-vitals:** ^2.1.4 - Measures performance metrics like Core Web Vitals.
 
-### `npm run eject`
+### Install Dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To install all dependencies, run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
