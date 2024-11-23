@@ -12,6 +12,7 @@ This project uses React to render news headlines and articles. Due to the API ke
 - Replace the JSON file with live API integration if you have a valid NewsAPI key.
 - Ensure the JSON structure matches the expected format for seamless data rendering.
 
+
 ## Installation
 
 ```bash
