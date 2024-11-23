@@ -1315,15 +1315,17 @@ const responsejson={
       
 return(
     <div className="news-container">
-        <h1>Collection of news from multiple sorce</h1>
+        <h1 className="news-title">News-Monkey:Top Headlines</h1>
     <div className="news-grid">
-    {responsejson.articles.map((article,index)=>{
+    {responsejson.articles.slice().reverse().map((article,index)=>{
      return <div className="news-card">
 <div className="news-content">
 <h2 className="news-headline">{article.title}</h2>
         <img src={article.urlToImage || "https://via.placeholder.com/150"} className="news-image"/>
         <p className="news-content">{article.description||"some error"}</p> 
         Author:<strong>{article.author||"unknown"}</strong>
+       Source:<strong>{article.source.name||"unknown"}</strong>
+       Published at:<strong>{new Date(article.publishedAt).toLocaleString()||"unknown"}</strong>
         <br></br>
         <a href={article.url}><strong>Read more</strong></a>
 </div>
