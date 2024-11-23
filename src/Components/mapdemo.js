@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react";
 import "./News.css";
+import newsdata from "./newsdata";
 function MapDemo(){
     const[title,setTitle]=useState("");
     useEffect(()=>{
