@@ -1323,9 +1323,10 @@ return(
 <h2 className="news-headline">{article.title}</h2>
         <img src={article.urlToImage || "https://via.placeholder.com/150"} className="news-image"/>
         <p className="news-content">{article.description||"some error"}</p> 
-        Author:<strong>{article.author||"unknown"}</strong>
-       Source:<strong>{article.source.name||"unknown"}</strong>
-       Published at:<strong>{new Date(article.publishedAt).toLocaleString()||"unknown"}</strong>
+        <p> Author:<strong>{article.author||"unknown"}</strong> </p>
+       <p> Source:<strong>{article.source.name||"unknown"}</strong></p>
+      <p> Published at:<strong>{new Date(article.publishedAt).toLocaleString()||"unknown"}</strong></p>
+      
         <br></br>
         <a href={article.url}><strong>Read more</strong></a>
 </div>
