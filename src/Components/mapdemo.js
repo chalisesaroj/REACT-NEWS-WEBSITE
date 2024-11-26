@@ -11,6 +11,7 @@ document.title="Saroj News";
       
 return(
     <div className="news-container">
+        <h1>Sample news</h1>
         <h1 className="news-title">News-Monkey:Top Headlines</h1>
     <div className="news-grid">
     {newsdata.articles.slice().reverse().map((article,index)=>{
