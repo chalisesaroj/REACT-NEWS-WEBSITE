@@ -12,7 +12,7 @@ function App() {
 const [scripsearching,setScripSearching]=useState(false);
   return (
     
-    <div >
+    <div style={{backgroundColor:"black"}}>
      
       {scripsearching && <ScripSearch /> }
       {/* <News/> */}
