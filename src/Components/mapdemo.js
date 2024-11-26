@@ -11,6 +11,7 @@ document.title="Saroj News";
       
 return(
     <div className="news-container">
+        <h1>Sample news</h1>
         <h1 className="news-title">News-Monkey:Top Headlines</h1>
     <div className="news-grid">
     {newsdata.articles.slice().reverse().map((article,index)=>{
@@ -23,8 +24,8 @@ return(
        <p> Source:<strong>{article.source.name||"unknown"}</strong></p>
       <p> Published at:<strong>{new Date(article.publishedAt).toLocaleString()||"unknown"}</strong></p>
       
-        <br></br>
-        <a href={article.url}><strong>Read more</strong></a>
+        <p><a href={article.url}><strong>Read more</strong></a></p>
+        
 </div>
         </div>
     })}
