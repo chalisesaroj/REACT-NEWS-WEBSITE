@@ -24,8 +24,8 @@ return(
        <p> Source:<strong>{article.source.name||"unknown"}</strong></p>
       <p> Published at:<strong>{new Date(article.publishedAt).toLocaleString()||"unknown"}</strong></p>
       
-        <br></br>
-        <a href={article.url}><strong>Read more</strong></a>
+        <p><a href={article.url}><strong>Read more</strong></a></p>
+        
 </div>
         </div>
     })}
